@@ -7,7 +7,7 @@ A Java-based DNA sequencer that takes 2 DNA sequences and determines their simil
 
 ## How to Launch
 
-### In Eclipse IDE
+### In Eclipse IDE (works in v4.17 and under)
 1. Download bin and src files and unzip if zipped
 2. Open Eclipse
 3. Select File > Import Projects from File System or Archive
@@ -19,8 +19,6 @@ A Java-based DNA sequencer that takes 2 DNA sequences and determines their simil
 9. If not already opened, open the Console under Window > Show View > Console
 10. Press the green Run button in the button toolbar at the top or go to Run > Run
 11. If you've successfully launched the program, you will see a prompt in the console to enter the first sequence
-
-### In Terminal/Command Line
 
 ## Theory
 Essentially, the sequencer takes 2 user inputs that act as DNA strands and outputs an "optimal alignment" of the two using the Needleman-Wunsch algorithm. It generates a matrix composed of both sequences, one as the row length and the other as the column length, and populates the matrix by comparing the character values at each location and using the user's scoring settings input at the beginning. Then, during the traceback sequence, the program starts at the bottom rightmost cell and navigates to the top leftmost cell based on the values, and generates the optimal alignment while doing so.
