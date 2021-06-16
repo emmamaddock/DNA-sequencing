@@ -1,5 +1,5 @@
 # Java DNA Sequencer
-*By Emma Maddock and Megan McEwen, Carleton University*
+*By Emma Maddock and Megan McEwen, Carleton University, 2017*
 
 ## Description
 
