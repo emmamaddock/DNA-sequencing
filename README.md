@@ -1,13 +1,13 @@
 # Java DNA Sequencer
 *By Emma Maddock and Megan McEwen, Carleton University*
 
-##Description
+## Description
 
 A Java-based DNA sequencer that takes 2 DNA sequences and determines their similarity.
 
 ## How to Launch
 
-###In Eclipse IDE
+### In Eclipse IDE
 1. Download bin and src files and unzip if zipped
 2. Open Eclipse
 3. Select File > Import Projects from File System or Archive
@@ -20,15 +20,15 @@ A Java-based DNA sequencer that takes 2 DNA sequences and determines their simil
 10. Press the green Run button in the button toolbar at the top or go to Run > Run
 11. If you've successfully launched the program, you will see a prompt in the console to enter the first sequence
 
-###In Terminal/Command Line
+### In Terminal/Command Line
 
-##Theory
+## Theory
 Essentially, the sequencer takes 2 user inputs that act as DNA strands and outputs an "optimal alignment" of the two using the Needleman-Wunsch algorithm. It generates a matrix composed of both sequences, one as the row length and the other as the column length, and populates the matrix by comparing the character values at each location and using the user's scoring settings input at the beginning. Then, during the traceback sequence, the program starts at the bottom rightmost cell and navigates to the top leftmost cell based on the values, and generates the optimal alignment while doing so.
 For more info on this, look at documentation on the Needleman-Wunsch algorithm and how it works.
 
 ![Needleman-Wunsch Algorithm Matrix](https://www.researchgate.net/profile/Dzmitry-Razmyslovich/publication/278675646/figure/fig2/AS:391973853777922@1470465257538/An-example-of-an-alignment-by-Smith-Waterman-algorithm.png)
 
-##Using the Sequencer
+## Using the Sequencer
 The sequencer asks the user for 2 consecutive DNA sequences, which are made out of 'G', 'C', 'T', or 'A' characters.
 The user may enter any 2 random strings composed of these letters, uppercase or lowercase.
 If there's a character that's not one of the 4 accepted, it will ask again to enter a valid string.
