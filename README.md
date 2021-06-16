@@ -60,5 +60,5 @@ After setting the score settings, the user is taken to a menu.
    * exits the program
 
 
-A full report and in-depth description of theory, development, testing, and use can be found in the repository as "report.docx".
+A full report and in-depth description of theory, development, testing, and use can be found in the repository as "Project-Report-Deliverable-3.docx".
 
